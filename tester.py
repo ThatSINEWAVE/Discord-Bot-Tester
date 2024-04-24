@@ -4,6 +4,8 @@ import threading
 import discord
 import logging
 import asyncio
+import os
+
 
 # Suppress discord.py logs (or set your desired log level)
 logging.getLogger('discord').setLevel(logging.CRITICAL)
@@ -27,14 +29,13 @@ class DiscordBotClient(discord.Client):
                 await message.channel.send("Stopping the bot...")
                 await self.logout()
 
-
     def log_to_file(self, status):
         timestamp = time.strftime("%Y-%m-%d %H:%M:%S")
         log_data = {"bot_name": self.bot_name, "status": status, "timestamp": timestamp}
-        try:
+        if os.path.isfile(self.log_file) and os.stat(self.log_file).st_size != 0:
             with open(self.log_file, "r") as f:
                 logs = json.load(f)
-        except FileNotFoundError:
+        else:
             logs = []
 
         logs.append(log_data)
