@@ -1,0 +1,22 @@
+[
+    {
+        "name": "YOUR_BOT_NAME_1",
+        "token": "YOUR_BOT_TOKEN_1"
+    },
+    {
+        "name": "YOUR_BOT_NAME_2",
+        "token": "YOUR_BOT_TOKEN_2"
+    },
+    {
+        "name": "YOUR_BOT_NAME_3",
+        "token": "YOUR_BOT_TOKEN_3"
+    },
+    {
+        "name": "YOUR_BOT_NAME_4",
+        "token": "YOUR_BOT_TOKEN_4"
+    },
+    {
+        "name": "YOUR_BOT_NAME_5",
+        "token": "YOUR_BOT_TOKEN_5"
+    }
+]
