@@ -1,0 +1,27 @@
+[
+  {
+    "bot_name": "BOT_1_NAME",
+    "status": "success",
+    "timestamp": "2024-04-24 17:19:35"
+  },
+  {
+    "bot_name": "BOT_2_NAME",
+    "status": "success",
+    "timestamp": "2024-04-24 17:19:35"
+  },
+  {
+    "bot_name": "BOT_3_NAME",
+    "status": "success",
+    "timestamp": "2024-04-24 17:19:35"
+  },
+  {
+    "bot_name": "BOT_4_NAME",
+    "status": "success",
+    "timestamp": "2024-04-24 17:19:36"
+  },
+  {
+    "bot_name": "BOT_5_NAME",
+    "status": "success",
+    "timestamp": "2024-04-24 17:19:36"
+  }
+]
