@@ -23,7 +23,7 @@ Make sure to replace placeholders such as `YOUR_BOT_NAME` and `YOUR_BOT_TOKEN` w
 
 <div align="center">
 
-## [Join my discord server](https://discord.gg/2nHHHBWNDw)
+# [Join my discord server](https://discord.gg/2nHHHBWNDw)
 
 </div>
 
